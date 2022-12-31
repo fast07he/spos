@@ -1,0 +1,8 @@
+Assembler: Assembler is a program for convert low level assembly code into relocatable machine code 
+pass1: perform analysis of the assembly program and generate intermediate code using op code table,it seperate the symbol,mnemonic op code an operand field.
+Assembly program:is a low -level programing language designed for specific type of processor
+1.imperative statement:indicate an action to be perform during the execution of assembly program
+2.Assembler directives:instruct the assembler to perform certain action during the translation 
+3.Declarative statement:1)declarative storage-speified byte of storage and assign to given label 2)declare constant-assign constant value to lebel
+4.literal table-contain field literal number,values&adress.
+5.symbol table-symbol,name&adress 
