@@ -1,0 +1,9 @@
+Practical 3&4 (Pass 1 of 2 pass macro) 
+
+`Pass1 of macro processor perform two important tasks recognize macro defination a macro processor must identified by the MACRO and MEND pseudo opcodes
+`save the defination : the micro processor must store the macro instruction defination which will we for expanding macro call`
+`Pass 1(Data structure)
+`1.input assembly language program with macro defination and macro call input assembly language program containing few assembly instruction one or more macro defination and macro call
+`2.Macro name table(MNT):used to store the names of defination macros each MNT entry consist of charactor string and a pointer to entry in the MDT that corresponds to the begining of the macro defination
+`3.Macro Defination table: used to store the body of macro defination every line of each macro defination exepts the MACRO line is stared in the MDT the MEND kept to indicate the end of defination and macro names line
+`4.Argument list array(ALA): used to substitute index marker during argument before starting a macro defination
