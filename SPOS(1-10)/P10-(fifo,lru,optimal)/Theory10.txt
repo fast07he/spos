@@ -1,0 +1,12 @@
+
+Practical 10(FIFO,LRU,OBTIMAL)
+
+`paging a process of reading data from and writing data to the secondary storage 
+`Page Fault-it is a condition in which a running process refer to page that a is not loaded in main memory
+`Page hits-if a process request for page and that page is found in the main memory then it is called page hits
+`Page Replacement Algorithms-decide which page to remove also called swap out when a new page need to be loaded into main memory
+`1.FIFO-first in first out,in this algorithm the as maintain a queue that keeps track of all the pages memory.with the oldest page at front & the most recent page at the back when there is a need for page replacement
+`2.LRU-least recently used,keep track of page usage over a short period of time,it works on the idea of time that pages,page which has not been used for the longest amount of time is replaced
+`3.OPTIMAl-this is a best page replacement alogorithm as it give the least number of page fault,in this algorithm page are replaced which would not be used for the longest duration of time
+`ALGORITHM-1)FIFO-this algorithm is implemented by keeping the track of all the pages in the queue,2)LRU-the page that has not been used for the longest time in the main memory will the selected for replacement
+ 3)OPTIMAL-this algorithm mainly replace the page that will not be used for the longest time in the future 
