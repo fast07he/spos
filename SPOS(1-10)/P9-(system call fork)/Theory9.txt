@@ -1,0 +1,10 @@
+Practical 9(system call-ps,fork) 
+
+`system call-when a program in user mode require access to RAM or a hardware resourse it must ask the kernel to provide acess to that resources this is done via something Called a system call
+`context switch-when a program makes a system call the mode is switched from user mode to kernel mode
+`unix process-recall a process in a program in execution,processes a create other process with the fork() system call,fork create an identical copy of the parent process
+`1.PS commond-the ps(process status) commond is used to provide information about currently running process includeing there process ientification number,PS[option]
+`2.fork()-the system call used to create process when a process,makes a fork call an exact copy of the process is created
+`3.join command-is line untility for joining lines of two files on a common field ,it can be used to join two files on them
+`4.Exec()-system call is also used to create process but there is one big difference between fork()&Exec.fork-for create,exec-for replace adress
+`5.wait()-blocks the calling process until one of its child processes exit as a signal is received after child process terminate parent continues its execution after wait system call instruction
