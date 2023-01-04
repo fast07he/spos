@@ -1,0 +1,6 @@
+Practical 7(yacc Compund simple)
+
+`yyparse()-return a value of 0 if the input it parse is valid according to the given grammer values,yyparse call routine called yylex() everytime it wants to obtain a token from the input
+`yylex()-return a values indicating the type of token that has been obtain 
+`Algorithm-1.write the lex program which recognize nessary token extension 2.write yacc program with grammar for delarative statement 3.compile lex and yacc program to generate lex.yy.c and y.tab.c program
+4.compile c program to generate the object program a.out
