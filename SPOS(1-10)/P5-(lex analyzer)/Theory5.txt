@@ -1,0 +1,10 @@
+Practical 5 (lex analysis)
+
+`firstly lexical analyzer create a program lex.l in the lex program and produes a c program lex.yy.c
+`finally c compiler run the lex .yy.c program and producess an object program a.out
+`a.out is lexical analyzer that transform an input into  a sequence of taken 
+`lex source program--->lex compiler--->lex.yy.c
+`lex.yy.c--->c ompiler--->a.out
+`input stream--->a.out--->sequence of c token
+`Auxiliary function-user subroutine are auxilary procedure need by action the subroutine can be loaded with lexical analyzer and complex separately 
+`the auxilary declaration and funtion are copied as such to lex.yy.c
