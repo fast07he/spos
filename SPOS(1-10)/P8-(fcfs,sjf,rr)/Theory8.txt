@@ -1,0 +1,10 @@
+Practical 8(FCFS,SJF,priori,RR)
+
+`1.FCFS(first come first serve)-is an os scheduling algorithm that automatically execute queued request & processes in order of their arrival
+`characteristic FCFS-it support preemptive & non premptive scheduling,poor in performance & general wait time is quiet high
+`2.SJF(shortest job first)-is an non premptive scheduling,is an algorithm in which the processes having smallest exeution time is choosen for next execution 
+`characteristic SJF-its assoiated with each job as unit time to complete,it can improve process throughput by making sure that shortest jobs are executed first hense possibly have a short turnaround time
+`3.PRIORITY-its a non premptive scheduling,is a method of scheduling process that is based on priority in these algorithm the scheduler select the tasks to work as per the priority
+`characteristic PRIORITY-a cpu algorithm that schedules process based on priority,used in os for performing batch process,lower the number,higher is priority
+`4.Round Robin scheduling-the name of this algorithm comes from the round robin principle where each person get an equal share of something in turn the algorithm is use for multitasking
+`characteristic RR-it is preemptive algorithm,the cpu is shifted to the next process after fixed interval time called as time quantum
