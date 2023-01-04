@@ -1,0 +1,11 @@
+Practical 6 (yacc valid invalid)
+
+`yacc stand for yet another compiler
+`yacc provide a tool to produce a parser for a given grammer,yacc is program designed to compiler a LALR grammer
+`declaration section-declaration of token,yacc required token name to be declared as such using keyword %token,start symbol %start
+`function used in yacc-1)yyparse-internally calls yylex for demanding for next token for lexical analyzer these token are used by yacc during parsing process
+                       2)yywrap-it return value when scanning of whole input is finished that is processing of input file is done,else yywrap function return 0
+`yacc specification(yacc.y)--->yacc or bison specification--->y.tab.c
+`lex specification(lex.l) and token defination(y.tab.h)--->lex or flex compiler--->lex.yy.c
+`lex.yy.c/y.tab.c--->c compiler--->a.out
+`input stream--->a.out--->output stream
